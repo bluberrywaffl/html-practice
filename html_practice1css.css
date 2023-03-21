@@ -8,9 +8,8 @@ html {
 
 body {
     width: 600px;
-    margin: top right bottom left;
     margin: 20px auto;
-    background-color: FF9500;
+    background-color: #FF9500;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 
@@ -26,4 +25,29 @@ h1 {
 p, li {
     line-height: 2;
     letter-spacing: 1px;
+}
+p.bold {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+#warning {
+    text-decoration: underline;
+}
+table {
+    margin-left: 20px;
+}
+th {
+    padding: 10px;
+    border-bottom: 1px dashed;
+}
+td {
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 7px 7px 1px balck;
+}
+a:hover {
+    color: #c00;
 }
