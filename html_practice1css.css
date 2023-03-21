@@ -47,6 +47,8 @@ img {
     display: block;
     margin: 0 auto;
     box-shadow: 7px 7px 1px balck;
+    opacity: 0.5;
+    padding-bottom: 15px;
 }
 a:hover {
     color: #c00;
